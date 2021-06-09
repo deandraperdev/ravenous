@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import './App.css';
+import Business from '../Business/Business.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Business />
       </header>
     </div>
   );
